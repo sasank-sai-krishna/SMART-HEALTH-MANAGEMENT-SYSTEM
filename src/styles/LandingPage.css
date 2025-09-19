@@ -1,17 +1,22 @@
 .landing-container {
-  height: 100vh; /* full screen height */
-  width: 100vw;  /* full screen width */
-  background-image: url("C:\Users\sasan\OneDrive\Desktop\ailanding.jpg") no-repeat center center fixed;
-  background-size: cover; /* makes image cover whole screen */
+  height: 100vh; 
+  width: 100vw;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZlWbYJdATG_pesrqAvBTiU0ugWQ9GSeWttQ&s");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover; 
   display: flex;
   flex-direction: column;
-  justify-content: center; /* centers title/buttons vertically */
-  align-items: center;     /* centers horizontally */
+  justify-content: center; 
+  align-items: center; 
   text-align: center;
-  overflow: hidden; /* remove scrollbars */
+  overflow: hidden; 
   margin: 0;
   padding: 0;
 }
+
+
 
 .landing-title {
   color: white;
